@@ -1,0 +1,28 @@
+{
+  "name": "fragment-innerhtml",
+  "version": "0.0.1",
+  "description": "Use an innerHTML getter and setter with DocumentFragments",
+  "main": "fragment-innerhtml.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -w --mode=development",
+    "build": "webpack -p --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinokerlund/fragment-innerhtml.git"
+  },
+  "author": "Kevin Okerlund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinokerlund/fragment-innerhtml/issues"
+  },
+  "homepage": "https://github.com/kevinokerlund/fragment-innerhtml#readme",
+  "devDependencies": {
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "html-fragment": "^1.1.0"
+  }
+}
