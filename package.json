@@ -4,7 +4,7 @@
   "description": "Use an innerHTML getter and setter with DocumentFragments",
   "main": "fragment-innerhtml.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "watch": "webpack -w --mode=development",
     "build": "webpack -p --mode=production"
   },
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/kevinokerlund/fragment-innerhtml#readme",
   "devDependencies": {
+    "jest": "^23.4.1",
+    "jsdom": "^11.11.0",
     "webpack": "^4.16.2",
     "webpack-cli": "^3.1.0"
   },
